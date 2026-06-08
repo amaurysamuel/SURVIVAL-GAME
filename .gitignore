@@ -1,15 +1,42 @@
+# Binaires et build
 Binaries/
 Build/
-DerivedDataCache/
 Intermediate/
+DerivedDataCache/
+
+# Fichiers temporaires
 Saved/
-Content/
-Plugins/
 .vs/
 *.VC.db
 *.opensdf
 *.opendb
-.vscode/
+*.sln.DotSettings.user
 
+# Plugins tiers (sauf tes plugins perso)
+Plugins/*/Binaries/
+Plugins/*/Build/
+Plugins/*/Intermediate/
+
+# Éditeur
+.vscode/
+.idea/
+
+# Blueprints et assets à INCLURE
 !Content/Blueprints/
-!Content/Scripts/
+!Content/Blueprints/**
+
+# Exclure le reste des assets lourds
+Content/*/Binaries/
+Content/*/Build/
+Content/*/Intermediate/
+Content/StarterContent/
+Content/ThirdPerson/
+Content/FirstPerson/
+
+# Autres exclusions
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.so

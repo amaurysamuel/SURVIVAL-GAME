@@ -1,0 +1,9 @@
+{
+  "Server_Name": "My Server",
+  "ServerMap": "IslandMap",
+  "MaxPublicConnections": 100,
+  "MaxPrivateConnections": 0,
+  
+  "ServerHarvestRate": 1,
+  "ServerExperienceRate": 1
+}
