@@ -1,0 +1,15 @@
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Content/
+Plugins/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+.vscode/
+
+!Content/Blueprints/
+!Content/Scripts/
